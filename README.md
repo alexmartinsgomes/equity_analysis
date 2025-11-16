@@ -29,20 +29,14 @@ A comprehensive Python application for in-depth equity total return analysis, fe
 
 2.  **Create and activate a virtual environment:**
     ```bash
-    # For macOS/Linux
-    python3 -m venv venv
-    source venv/bin/activate
-
-    # For Windows
-    python -m venv venv
-    .\venv\Scripts\activate
+    # For macOS/Linux/Windows
+    uv init
     ```
 
 3.  **Install the required dependencies:**
     ```bash
     uv add -r requirements.txt
     ```
-
 ## Usage Guide
 
 1.  **Run the application:**
