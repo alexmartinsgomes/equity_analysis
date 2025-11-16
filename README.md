@@ -93,6 +93,3 @@ A comprehensive Python application for in-depth equity total return analysis, fe
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Author
-- **Gemini CLI Agent**
