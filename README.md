@@ -40,14 +40,14 @@ A comprehensive Python application for in-depth equity total return analysis, fe
 
 3.  **Install the required dependencies:**
     ```bash
-    pip install -r requirements.txt
+    uv add -r requirements.txt
     ```
 
 ## Usage Guide
 
 1.  **Run the application:**
     ```bash
-    python app.py
+    uv run app.py
     ```
     This will start the Gradio web server. Open the URL displayed in your terminal (usually `http://127.0.0.1:7860`) in your web browser.
 
@@ -86,10 +86,3 @@ A comprehensive Python application for in-depth equity total return analysis, fe
     -   The Sharpe ratio calculation assumes a risk-free rate of 0.0%.
     -   Annualization calculations assume 252 trading days in a year.
     -   Dividends are assumed to be reinvested on the ex-dividend date.
-
-## Troubleshooting
--   **Error: "Could not fetch data"**: This usually means the ticker symbol is invalid, the ticker has no data for the selected date range, or there was a temporary network issue. Please verify the ticker symbol and try again.
--   **Error: "Begin date cannot be after end date"**: Ensure the selected date range is logical.
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
