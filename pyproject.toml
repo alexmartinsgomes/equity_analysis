@@ -1,5 +1,5 @@
 [project]
-name = "Equity Analyzer"
+name = "equity"
 version = "1.0.0"
 description = "Equity Analyzer"
 readme = "README.md"
